@@ -2,9 +2,10 @@
   "name": "vanakam_express",
   "version": "1.0.0",
   "description": "to practise node with express",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devq": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/OFS-dev/vanakam_express#readme",
   "dependencies": {
+    "dotenv": "^16.4.2",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
